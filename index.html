@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tic-tac-toe</title>
+
+    <!-- css link -->
+    <link rel="stylesheet" href="asset/style.css">
+
+</head>
+
+<body>
+
+    <div class="container">
+
+        <!-- modal -->
+        <div class="modal">
+            <div>
+                <h1></h1>
+                <button onclick="restart()">Restart</button>
+            </div>
+        </div>
+
+        <main>
+            <!-- players -->
+            <div class="players">
+                <div class="player1">X</div>
+                <div class="player2">O</div>
+            </div>
+
+            
+            <div class="centerbox">
+
+                <!-- name -->
+                <h1 class="name">Tic Tac Toe</h1>
+
+                <!-- boxes -->
+                <div class="wrapper">
+                    <div class="a1"></div>
+                    <div class="a2"></div>
+                    <div class="a3"></div>
+                    <div class="b1"></div>
+                    <div class="b2"></div>
+                    <div class="b3"></div>
+                    <div class="c1"></div>
+                    <div class="c2"></div>
+                    <div class="c3"></div>
+                </div>
+
+                <!-- button -->
+                <button onclick="restart()">Restart</button>
+            </div>
+            
+
+            <!-- avocado -->
+            <div class="avocado">
+                <img src="asset/images/icons8-avocado-100.png" alt="">
+            </div>
+        </main>
+        
+
+    </div>
+
+
+    <script src="asset/app.js"></script>
+
+</body>
+
+</html>
